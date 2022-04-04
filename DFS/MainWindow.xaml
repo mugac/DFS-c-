@@ -1,0 +1,19 @@
+﻿<Window x:Class="DFS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DFS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="675" Width="1200">
+    <Grid>
+        <Button Name="bt_res" Content="Restart" HorizontalAlignment="Left" Margin="985,68,0,0" VerticalAlignment="Top" Height="36" Width="198"/>
+        <Button Name="bt_play" Content="Play" HorizontalAlignment="Left" Margin="985,109,0,0" VerticalAlignment="Top" Height="36" Width="198" Click="bt_play_Click"/>
+        <Canvas Name="canv" Background="#FFE8E8E8" Width="950" Height="640" Margin="10,10,240,9" MouseDown="canv_MouseDown"/>
+        <Button x:Name="bt_res_Copy" Content="Restart" HorizontalAlignment="Left" Margin="985,68,0,0" VerticalAlignment="Top" Height="36" Width="198" Click="bt_res_Copy_Click"/>
+        <Button x:Name="bt_node" Content="Add Node" HorizontalAlignment="Left" Margin="985,27,0,0" VerticalAlignment="Top" Height="36" Width="99" Click="bt_node_Click"/>
+        <Button x:Name="bt_path" Content="Add Path" HorizontalAlignment="Left" Margin="1084,27,0,0" VerticalAlignment="Top" Height="36" Width="99" Click="bt_path_Click"/>
+        <TextBlock x:Name="tb" HorizontalAlignment="Left" Margin="985,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="500" Width="198"/>
+
+    </Grid>
+</Window>
