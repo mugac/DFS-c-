@@ -1,3 +1,3 @@
 DFS
-wpf visualizace <br>
+wpf vizualizace <br>
 DFS.cs -> implementovatelný algoritmus v c#
